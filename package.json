@@ -1,0 +1,38 @@
+{
+  "name": "webserial",
+  "version": "0.1.0",
+  "description": "Node.js compiled addon implementing the Web Serial API",
+  "license": "MIT",
+  "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
+  "main": "lib/index.js",
+  "homepage": "https://github.com/cjihrig/webserial#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjihrig/webserial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cjihrig/webserial/issues"
+  },
+  "scripts": {
+    "install": "npm run rebuild",
+    "lint": "belly-button -f",
+    "pretest": "npm run lint",
+    "rebuild": "node-gyp rebuild",
+    "test": "lab -v -t 100"
+  },
+  "engines": {
+    "node": ">=16.5.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@hapi/lab": "24.x.x",
+    "belly-button": "8.0.0-beta.1"
+  },
+  "keywords": [
+    "serial",
+    "serialport",
+    "webserial",
+    "libserialport"
+  ]
+}
