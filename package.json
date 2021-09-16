@@ -1,6 +1,6 @@
 {
   "name": "webserial",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Node.js compiled addon implementing the Web Serial API",
   "license": "MIT",
   "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
