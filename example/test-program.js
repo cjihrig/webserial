@@ -46,9 +46,9 @@ async function main() {
   }
   /* eslint-enable no-unused-vars */
 
-  await getSignals();
+  // await getSignals();
   // await setSignals();
-  // await read();
+  await read();
   // await write();
 
   await board.close();

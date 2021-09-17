@@ -14,16 +14,15 @@
     "url": "https://github.com/cjihrig/webserial/issues"
   },
   "scripts": {
-    "install": "npm run rebuild",
     "lint": "belly-button -f",
     "pretest": "npm run lint",
-    "rebuild": "node-gyp rebuild",
     "test": "lab -v -t 100"
   },
   "engines": {
     "node": ">=16.5.0"
   },
   "dependencies": {
+    "@serialport/bindings": "^9.2.1"
   },
   "devDependencies": {
     "@hapi/lab": "24.x.x",

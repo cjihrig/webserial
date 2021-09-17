@@ -1,5 +1,2 @@
 *
 !lib/**
-!src/**
-!libserialport/**
-!binding.gyp
